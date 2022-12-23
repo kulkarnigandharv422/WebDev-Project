@@ -411,7 +411,7 @@ section .title::before{
 }
 
 .port .title::after{
-    content: "Our Projects";
+    content: "My Projects";
     background: black;
 }
 
