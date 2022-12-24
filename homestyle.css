@@ -136,7 +136,7 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .port, .contact, footer{
+.about, .expertises, .skills, .port, .contact, footer{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 section .title{
@@ -178,7 +178,7 @@ section .title::before{
 .about .title::after{
     /* scontent: "Who are us"; */
 }
-.about .about-content, .services .serv-content, .skills .skills-content, .contact .contact-content{
+.about .about-content, .expertises .serv-content, .skills .skills-content, .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -235,8 +235,8 @@ section .title::before{
 }
 
 
-/*services section*/
-.services .title::after{
+/*Expertise section*/
+.expertises .title::after{
     position: absolute;
     /*bottom: -12px;*/
     left: 50%;
@@ -249,19 +249,19 @@ section .title::before{
     
     
 }
-.services, .port{
+.expertises, .port{
     background: black;
     color: white;
 }
-.services .title::before, .port .title::before{
+.expertises .title::before, .port .title::before{
     background: white;
 }
-.services .title::after, .port .title::after{
+.expertises .title::after, .port .title::after{
     background: rgb(0, 0, 0);
     /* content: "What we Provide"; */
 }
 
-.services .serv-content .card{
+.expertises .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -270,26 +270,26 @@ section .title::before{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card .box{
+.expertises .serv-content .card .box{
     transition: all 0.3s ease;
 
 }
-.services .serv-content .card:hover{
+.expertises .serv-content .card:hover{
     background: rgb(46, 75, 129);
 }
-.services .serv-content .card:hover .box{
+.expertises .serv-content .card:hover .box{
     transform: scale(1.05);
 }
 
-.services .serv-content .card i{
+.expertises .serv-content .card i{
     font-size: 50px;
     color: rgb(46, 75, 129);
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.expertises .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.expertises .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -680,7 +680,7 @@ footer .social i{
     .home .max-width{
         margin-left: 0 50px;
     }
-    .services .serv-content .card{
+    .expertises .serv-content .card{
         width: 100%;
     }
     section .title::before{
@@ -797,7 +797,7 @@ footer .social i{
         margin: 0 auto 60px;
     
     }
-    .services .serv-content .card{
+    .expertises .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -813,7 +813,7 @@ footer .social i{
 }
 
 @media (max-width: 500px){
-    .services .serv-content .card, .skills .skills-content .column{
+    .expertises .serv-content .card, .skills .skills-content .column{
         width: 100%;
         height: 250px;
                      
